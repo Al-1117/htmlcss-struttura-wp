@@ -1,0 +1,100 @@
+/* Reset */
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* End of Rest */
+
+body {
+  background-image: url(../img/sfondo.png);
+}
+
+.main-wrapper {
+  width: 55%;
+  margin: auto;
+}
+
+header {
+  position: relative;
+  height: 400px;
+  background-image: url(../img/background-header.jpg);
+  border: 10px solid #ffffff;
+}
+
+header .title {
+  color: #ffffff;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+header .title h1 {
+  font-size: 50px;
+  padding: 3px;
+  border: 3px solid #ffffff;
+  margin: 40px;
+
+}
+
+nav .nav-wrapper {
+  background-color: #504741;
+  text-align: center;
+  padding: 1%;
+  margin-bottom: 1%;
+
+}
+
+nav .nav-wrapper li {
+  color: #ffffff;
+  display: inline-block;
+  padding: 5px;
+
+}
+
+
+
+main .left-col {
+  height: 300px;
+  background: pink;
+  width: 28%;
+}
+
+main .central-col {
+  margin: 0% 2%;
+  height: 400px;
+  background-color: purple;
+  width: 40%;
+}
+main .right-col {
+  height: 700px;
+  background-color: blue;
+  width: 28%;
+}
+
+main .col {
+  float: left;
+}
+
+main::after {
+
+  content: "";
+  display: table;
+  clear: both;
+}
+
+main .box
+
+{
+  margin: 2px;
+  background-color: green;
+  height: 150px;
+  width: 100%;
+}
+
+footer {
+  height: 100px;
+  background: cyan;
+}
