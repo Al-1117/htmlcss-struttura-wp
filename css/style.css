@@ -1,19 +1,29 @@
-/* Reset */
+/* RESET */
 *{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
-/* End of Rest */
+/* End of RESET */
 
+
+/* BODY */
 body {
   background-image: url(../img/sfondo.png);
 }
 
+
+/* END OF BODY */
+
+/* MAIN WRAPPER */
 .main-wrapper {
   width: 55%;
   margin: auto;
 }
+
+/* END OF MAIN WRAPPER */
+
+/* HEADER */
 
 header {
   position: relative;
@@ -39,8 +49,12 @@ header .title h1 {
 
 }
 
+
+/* END OF HEADER */
+
+/* NAVIGATION BAR */
 nav .nav-wrapper {
-  background-color: #504741;
+  background-color: #737373;
   text-align: center;
   padding: 1%;
   margin-bottom: 1%;
@@ -55,6 +69,10 @@ nav .nav-wrapper li {
 }
 
 
+/* END NAVIGATION BAR */
+
+
+/* MAIN SECTION */
 
 main .left-col {
   height: 300px;
@@ -94,7 +112,14 @@ main .box
   width: 100%;
 }
 
+/* END OF MAIN SECTION */
+
+/* FOOTER SECTION */
+
 footer {
   height: 100px;
   background: cyan;
 }
+
+
+/* END OF FOOTER SECTION */
