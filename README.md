@@ -1,1 +1,1 @@
-htmlcss-struttura-wp-2
+htmlcss-struttura-wp
